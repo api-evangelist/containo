@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+source: pkg.go.dev, hub.docker.com, github.com/traefik
+note: >-
+  First-party distributables for the Traefik binary itself (the product created by Containous / Traefik
+  Labs). These are the proxy artifact, not API client SDKs, so no SDKs pointer is emitted.
+packages:
+- language: go
+  registry: pkg.go.dev
+  name: github.com/traefik/traefik/v3
+  url: https://pkg.go.dev/github.com/traefik/traefik/v3
+  install: go install github.com/traefik/traefik/v3/cmd/traefik@latest
+  official: true
+- language: docker
+  registry: docker-hub
+  name: traefik
+  url: https://hub.docker.com/_/traefik
+  install: docker pull traefik
+  official: true
+  note: Docker Official Image
+- language: helm
+  registry: github
+  name: traefik/traefik-helm-chart
+  url: https://github.com/traefik/traefik-helm-chart
+  install: helm repo add traefik https://traefik.github.io/charts && helm install traefik traefik/traefik
+  official: true

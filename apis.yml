@@ -1,19 +1,54 @@
 aid: containo
-name: containo
-description: containo is a company surfaced as a portfolio company of balderton-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Containous (Traefik Labs)
+description: >-
+  Containous SAS is the France-founded (2016) cloud-native networking company that created Traefik, the
+  open-source reverse proxy, ingress controller, and load balancer written in Go and downloaded billions of
+  times from Docker Hub. Containous was surfaced through the API Evangelist network as a portfolio company of
+  Balderton Capital, which led its Series A alongside Elaia Partners, 360 Capital, Kima Ventures, and OSS
+  Capital. The company subsequently rebranded to Traefik Labs and its original containo.us domain now redirects
+  to traefik.io. Under the Traefik Labs name it ships the open-source Traefik Proxy plus the commercial Traefik
+  Hub product line (API Gateway, API Management, AI Gateway, and MCP Gateway). This repo is the company/parent
+  profile; the full product and API surface (OpenAPI, CRDs, examples) lives in the api-evangelist/traefik repo.
 url: https://raw.githubusercontent.com/api-evangelist/containo/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/containo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - balderton-capital
+- elaia-partners
+- 360-capital
+- kima-ventures
+- oss-capital
+x-founded: '2016'
+x-renamed-to: traefik
+x-canonical-domain: https://traefik.io/
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cloud Native
+- Reverse Proxy
+- Load Balancer
+- Ingress Controller
+- API Gateway
+- Kubernetes
+- Open Source
+- Networking
+- Traefik
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +57,45 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://containo.us/
+  url: https://traefik.io/
+- type: Documentation
+  url: https://doc.traefik.io/
+- type: GettingStarted
+  url: https://doc.traefik.io/traefik/getting-started/quick-start/
+- type: APIReference
+  url: https://doc.traefik.io/traefik/reference/static-configuration/cli/
+- type: Blog
+  url: https://traefik.io/blog/
+- type: Pricing
+  url: https://traefik.io/pricing/
+- type: Support
+  url: https://community.traefik.io/
+- type: GitHubOrganization
+  url: https://github.com/traefik
+- type: StatusPage
+  url: https://status.traefik.io/
+- type: TermsOfService
+  url: https://traefik.io/legal/end-user-license-agreement
+- type: PrivacyPolicy
+  url: https://traefik.io/legal/privacy-and-cookie-policy
+- type: About
+  url: https://traefik.io/about-us
+- type: Careers
+  url: https://traefik.io/careers
+- type: Press
+  url: https://traefik.io/press
+- type: Contact
+  url: https://traefik.io/contact-us
+- type: Partners
+  url: https://traefik.io/partners
+- type: LlmsText
+  url: https://traefik.io/llms.txt
+- type: Packages
+  url: packages/containo-packages.yml
+- type: DomainSecurity
+  url: security/containo-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

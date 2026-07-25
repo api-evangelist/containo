@@ -1,0 +1,14 @@
+{
+  "repo": "containo",
+  "feeds": [
+    {
+      "source": "https://doc.traefik.io/traefik/reference/static-configuration/cli/",
+      "feed_url": "https://doc.traefik.io/traefik/reference/static-configuration/cli/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}
