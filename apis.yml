@@ -10,6 +10,17 @@ description: >-
   Hub product line (API Gateway, API Management, AI Gateway, and MCP Gateway). This repo is the company/parent
   profile; the full product and API surface (OpenAPI, CRDs, examples) lives in the api-evangelist/traefik repo.
 url: https://raw.githubusercontent.com/api-evangelist/containo/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
