@@ -57,7 +57,7 @@ tags:
 - Ingress Controller
 - API Gateway
 - Kubernetes
-- Open-Source
+- Open Source
 - Networking
 - Traefik
 tags_raw:
@@ -71,6 +71,7 @@ tags_raw:
 - Open Source
 - Networking
 - Traefik
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
